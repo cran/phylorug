@@ -1,0 +1,42 @@
+Package: phylorug
+Title: Visualize Clade Recovery and Support Across Phylogenetic Trees
+Version: 0.1.0
+Authors@R: c(
+     person("Md Rifath", "Ahamed", , "rifathahamed777@gmail.com",
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0009-0005-6158-8658")),
+    person("J. Salvador", "Arias", , "js.arias@conicet.gov.ar",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-3717-435X")),
+    person("Sergei", "Tarasov", , "sergei.tarasov@helsinki.fi",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-1737-9403"))
+    )
+Description: Generates rug plot visualizations directly on tree nodes to
+    illustrate clade recovery and support from multiple phylogenetic and
+    phylogenomic analyses. As modern studies routinely employ diverse
+    datasets and inference techniques producing potentially conflicting
+    trees, 'phylorug' simplifies the comparison among these trees by
+    consolidating clade recovery and support on a reference tree.
+License: MIT + file LICENSE
+URL: https://github.com/mdrifathahamed/phylorug,
+        https://mdrifathahamed.github.io/phylorug/
+BugReports: https://github.com/mdrifathahamed/phylorug/issues
+Depends: R (>= 4.1.0)
+Imports: ape, graphics, grDevices, phangorn, stats, tools, utils
+Suggests: knitr, mockery, rmarkdown, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 8.0.0
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-10-23 08:02:53 UTC; 1
+Author: Md Rifath Ahamed [aut, cre, cph] (ORCID:
+    <https://orcid.org/0009-0005-6158-8658>),
+  J. Salvador Arias [aut] (ORCID:
+    <https://orcid.org/0000-0002-3717-435X>),
+  Sergei Tarasov [aut] (ORCID: <https://orcid.org/0000-0002-1737-9403>)
+Maintainer: Md Rifath Ahamed <rifathahamed777@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-11-06 16:50:02 UTC
